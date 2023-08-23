@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.product-grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+
+}
+.product {
+    width: 20%;
+    /* height: 50%; Adjust this for spacing between products */
+    background-color: #f9f9f9; /* Background color for each product */
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ddd; /* Add a border for each product */
+}
+.product img {
+    max-width: 100%; /* Make sure images don't exceed their container width */
+}
+
+/* Optional: Style product titles and descriptions */
+.product h2 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+

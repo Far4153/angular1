@@ -9,6 +9,17 @@ import { CorouselComponent } from './corousel/corousel.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ProductGridComponent } from './product-grid/product-grid.component';
 import { FooterComponent } from './footer/footer.component';
+  
+// Importing forms module
+import { FormsModule, ReactiveFormsModule  } 
+from '@angular/forms';
+
+   
+
+import { NgbModule }
+from '@ng-bootstrap/ng-bootstrap';
+import { MyAccountDropdownComponent } from './my-account-dropdown/my-account-dropdown.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -17,12 +28,16 @@ import { FooterComponent } from './footer/footer.component';
     NavigationComponent,
     CorouselComponent,
     ProductGridComponent,
-    FooterComponent
+    FooterComponent,
+    MyAccountDropdownComponent,
+    LoginComponent
   ],
   imports: [
+    FormsModule,
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    NgbModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

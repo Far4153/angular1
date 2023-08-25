@@ -7,7 +7,9 @@
 /* Style for the left part of the navigation bar */
 .left {
     float: left;
+    /* padding-top: 23px; */
 }
+
 
 /* Style for the middle part of the navigation bar */
 .middle {
@@ -15,7 +17,7 @@
     /* position: absolute; */
     /* top: 50%; */
     /* left: 50%; */
-    transform: translate(1000%, -1%);
+    transform: translate(1000%, 15%);
     /* align-items: center; */
 }
 
@@ -31,6 +33,7 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-size: small;
 }
 
 /* On hover, the links will change color */
@@ -39,6 +42,8 @@
     color: black;
 }
 .navbar img{
+    text-align: center;
     width: 35px;
     height:25px;
 }
+

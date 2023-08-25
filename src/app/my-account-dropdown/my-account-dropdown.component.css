@@ -1,0 +1,64 @@
+img{
+    width: 20px;
+    border-radius: 50%;
+}
+.sub-menu-wrap{
+    
+        position: absolute;
+        top: 60px; /* Adjust the top position as needed */
+        right: 40px; /* Adjust the right position as needed */
+        z-index: 1000; /* Adjust the z-index to be higher than the carousel */
+        /* background-color: #e3ca8a; Add background color for visibility */
+        padding: 10px; /* Add padding for content */
+        max-height: 0px;
+        overflow: hidden;
+        transition: max-height 0.5s;
+    
+}
+.sub-menu-wrap.open-menu{
+    max-height: 400px;
+}
+
+.sub-menu{
+    background: #fff;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.user-info{
+    display: flex;
+    align-items: center;
+
+}
+
+.user-info h3{
+    /* margin-top: 15px; */
+    /* padding: 5px; */
+    position: relative;
+    top: 10px; /* Adjust the value to move the text down by the desired amount */
+    left: 0;
+    align-items: center;
+    font-weight: 500;
+    color: black;
+}
+.user-info img{
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 4px;
+}
+
+.sub-menu-link button{
+    width: 100px;
+    height: 25px;
+    border: none;
+    background-color: rgb(51, 69, 69);
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.sub-menu-link button:hover{
+    color:black
+}

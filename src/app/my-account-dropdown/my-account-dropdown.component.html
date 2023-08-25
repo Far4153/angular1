@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="my-account-dropdown.component.css">
+    <script src="my-account-dropdown.component.ts"></script>
+    <title>Document</title>
+</head>
+<body>
+    
+  <div (click)="toggleMenu()">
+    <img src="assets/login-logo.png" alt="image">
+    <div>profile</div>
+  </div>
+  
+  <div class="sub-menu-wrap" [ngClass]="{ 'open-menu': isMenuOpen }">
+    <div class="sub-menu">
+      <div class="user-info">
+        <img src="assets/login-logo.png" alt="">
+        <h3>WELCOME</h3>
+      </div>
+      <hr>
+      <a href="#" class="sub-menu-link">
+        <button>login</button>
+      </a>
+    </div>
+  </div>
+  
+
+  
+      
+</body>
+</html>

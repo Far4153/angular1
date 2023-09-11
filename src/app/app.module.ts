@@ -20,6 +20,7 @@ import { NgbModule }
 from '@ng-bootstrap/ng-bootstrap';
 import { MyAccountDropdownComponent } from './my-account-dropdown/my-account-dropdown.component';
 import { LoginComponent } from './login/login.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { LoginComponent } from './login/login.component';
     ProductGridComponent,
     FooterComponent,
     MyAccountDropdownComponent,
-    LoginComponent
+    LoginComponent,
+    HomeComponent
   ],
   imports: [
     FormsModule,

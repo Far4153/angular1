@@ -3,11 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
 .product-grid{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 20px;
+   
     max-width: 1000px;
     margin: 0 auto;
 
@@ -29,4 +32,6 @@
     font-size: 18px;
     margin: 10px 0;
 }
+
+
 

@@ -7,9 +7,19 @@
 /* Style for the left part of the navigation bar */
 .left {
     float: left;
-    /* padding-top: 23px; */
+    padding-top: 20px;
 }
-
+.search-container {
+    display: flex;
+    align-items: center;
+    max-width: 250px;
+    height: 20px;
+    margin: 0 auto;
+    padding: 2px;
+    border: 2px solid #ccc;
+    border-radius: 25px;
+    background-color: #fff;
+}
 
 /* Style for the middle part of the navigation bar */
 .middle {
@@ -17,7 +27,7 @@
     /* position: absolute; */
     /* top: 50%; */
     /* left: 50%; */
-    transform: translate(1000%, 15%);
+    transform: translate(800%, 15%);
     /* align-items: center; */
 }
 
@@ -31,7 +41,7 @@
     display: inline-block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 13px 18px;
     text-decoration: none;
     font-size: small;
 }
@@ -47,3 +57,26 @@
     height:25px;
 }
 
+#text{
+    flex: 1; /* Take up remaining space */
+    height: 5px;
+    border: none;
+    /* padding-top: 10px; */
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+    border-radius: 8px;
+}
+
+#search{
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    /* padding-top: 20px; */
+    cursor: pointer;
+    outline: none;
+}
+#search:hover {
+    background-color: transparent;
+    font-weight: 300;
+}

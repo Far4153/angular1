@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
+
 
 @Component({
   selector: 'app-my-account-dropdown',
@@ -11,7 +13,14 @@ export class MyAccountDropdownComponent {
   toggleMenu(): void {
     this.isMenuOpen = !this.isMenuOpen;
   }
+
+  constructor(private router: Router) {}
+
+navigateToLogin(pagename: string):void {
+  this.router.navigate([`${pagename}`]);
 }
+}
+
 
 
 

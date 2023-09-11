@@ -2,12 +2,17 @@
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="navigation.component.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
 </head>
 <body>
     <div class="navbar">
         <div class="left">
             <!-- Left part of the navigation bar -->
-            <a href="#">search bar</a>
+            <div class="search-container">
+                <input  type="text" name="text" id="text" placeholder="Search here...">
+                <button id="search" type="submit"><span class="fa-solid fa-magnifying-glass fa-lg" style="color: #000000;"></span></button>
+            </div>
             
         </div>
         <div class="middle">
@@ -20,7 +25,10 @@
             <!-- Right part of the navigation bar -->
             <a href="#"><app-my-account-dropdown></app-my-account-dropdown>
             </a>
-            <a href="#">Cart</a>
+            <a href="#">
+            <span class="fa-solid fa-cart-shopping fa-lg" style="color: #ffffff;"></span>
+            <div >cart</div>
+            </a>
     
         </div>
     </div>

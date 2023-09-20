@@ -1,0 +1,73 @@
+body{
+    display: grid;
+    place-items: center;
+    height: 100vh; 
+}
+.login-container{
+    width: 400px;
+    height: 400px;
+    background-color: #d86969;
+    display: flex;
+    flex-direction: left;
+    justify-content: center;
+    border-radius: 30px;
+    transform-origin: left center;
+    transform: translateX(0%);
+    z-index: 2;
+
+
+
+}
+
+.login-container h1{
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+
+.login-container form div{
+    padding: 5px;
+}
+
+.login-container .form .create-ac {
+    padding-top: 30px;
+}
+
+.signup-container{
+    width: 400px;
+    height: 400px;
+    background-color: #b7d861;
+    display: flex;
+    flex-direction: left;
+    justify-content: center;
+    border-radius: 30px;
+    position: absolute;
+    top: 150px;
+    left: 220px;
+    transform: rotate(-10deg);
+    transform-origin: right center;
+    transform: translateX(100%);
+    z-index: 1;
+
+
+
+}
+
+.signup-container h1{
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+
+.signup-container form div{
+    padding: 5px;
+}
+
+.signup-container .form .create-ac {
+    padding-top: 30px;
+}
+
+
+
